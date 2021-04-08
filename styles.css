@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Nanum+Gothic&family=Quicksand:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Quicksand:wght@300&display=swap');
+
+header nav img {
+    width: 100%;
+    height: 100%;
+}
+.con_nav{
+    position: relative;
+    text-align: left;
+    color: rgb(13, 13, 14);
+   
+}
+
+.h1_sec {
+    position: absolute;
+    bottom: 40px;
+    left: 1px;
+    width: 70%;
+    font-size: 30px;
+    margin-right: 20px;
+    padding-left: 10px;
+    text-align: left;
+    background-color: rgba(218, 200, 44, 0.568);
+
+}
+
+
+nav section section h3 {
+    margin-left: 15px;
+}
+
+.main_main{
+    display: block;
+    clear: both;
+}
+.main_sec{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 50%;
+}
+
+main section section h1{
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+  line-height: 60px;
+  margin-bottom: 10px;
+}
+p{
+   font-size: 20px;
+   font-style: normal;
+}
+.main_sec2{
+    margin-top: 10px;
+   
+}
+.sec{
+    display: flex;
+    width: 200%;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+.main_sec3{
+  position: relative;
+    margin-top: 10%;
+  width: 25%;
+  float: left7
+  
+   
+}
+.img_sec1{
+    padding-top: 10px;
+    background: rgb(252, 231, 40);
+}
+.img_sec2{
+    padding-top: 10px;
+    background: rgb(252, 231, 40);
+    margin-top: 10px;
+}
+.img_sec3{
+    width: 80%;
+    height: 60%;
+    padding-top: 10px;
+    background: rgb(252, 231, 40);
+}
+.img_sec4{
+    width: 160%;
+    height: 60%;
+    padding-top: 10px;
+    margin-top: 30px;
+    background: rgb(252, 231, 40);
+}
+.main_sec4{
+    
+   position: relative;
+     padding-top: 220px ;
+    margin-top: 10px;
+}
