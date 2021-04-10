@@ -25,6 +25,9 @@ header nav img {
     background-color: rgba(218, 200, 44, 0.568);
 
 }
+.h1_sec:hover{
+    background-color: rgba(221, 175, 23,0.568);
+}
 
 
 nav section section h3 {
