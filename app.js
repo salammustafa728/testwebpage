@@ -6,6 +6,7 @@ let swim;
 let chec;
 let CountryArr=['Canada','Turkey','Paris'];
 let checkCountry;
+let checkLetter;
 let scour=0;
 function question(){
 userName=prompt('enter your name sweetie ' );
@@ -63,10 +64,11 @@ chec=prompt('What do you think I prefer? Round in the sea or Go Fishing?','Round
     
 let count=0;
   while(count<4){
-    checkCountry=prompt('What do you think my favorate country ','Canada, Turkey, Paris, UK choose one two are correct').toLowerCase();
-    if(checkCountry==='Canada'||checkCountry==='Turkey'){
+    checkCountry=prompt('What do you think my favorate country choose one two are correct you have 4 attempts ','Canada, Turkey, Paris, UK ').toLowerCase();
+    if(checkCountry==='canada'||checkCountry==='turkey'||checkCountry==='Canada'||checkCountry==='Turkey'){
         scour++;
         alert('Good job this one of my favorate country ');
+        break;
     }else if(checkCountry==='paris'|| checkCountry==='uk'){
             alert('on, wrong answer you ca try again')
         }else{
@@ -78,9 +80,21 @@ let count=0;
                     alert('on, wrong answer you ca try again')
             }         
         }
+        count++;
   }
+    let c2=0;
+    while(c2<5){
+        checkLetter=prompt('Enter letter from a-f choose one of these letters','a,b,c,d,e,f').toLowerCase();
+        if(checkLetter==='d'||checkLetter==='D'){
+            scour++;
+            alert('Great Job');
+            break;
+        }else{
+            checkLetter=prompt('Enter letter from a-f','a,b,c,d,e,f').toLowerCase();
+        }
+        c2++;
+    }
     
-    count++;
 }
 
 question();
