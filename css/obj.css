@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body{
+    width: 960px;
+    margin: auto;
+    font-family: 'Roboto Mono', monospace;
+}
+h1{
+    color: #ff7b54;
+}
+ul{
+    width: 50%;
+}
+
+ul li:nth-child(odd){
+    background-color: #f1ca89;
+    color: #ff7b54;
+}
+ul li:nth-child(even){
+    background-color: #ffd56b;
+    color: #ff7b54;
+}
+h2{
+    color: #ffb26b;
+}
