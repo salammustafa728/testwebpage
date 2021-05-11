@@ -1,0 +1,15 @@
+
+
+body{
+    width: 960px;
+    margin: auto;
+
+}
+
+table{
+    margin-top: 20px;
+    border: 1px solid darkblue;
+}
+td{
+    border: 1px solid darkblue;
+}
