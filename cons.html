@@ -6,34 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/cons.css">
-    <link rel="stylesheet" href="./css/reset.css">
+    <!-- <link rel="stylesheet" href="./css/reset.css"> -->
 </head>
 <body id="body">
+<article>
+  <form id="cookiForm">
+    <fieldset>
+  <legend>Add New Location  <br><br>
+  <label for="Lname">Location Name</label>
+  <input type="text" id="Lname" name="Lname" required><br><br>
+  
+  <label for="miCus">Min Cookie</label>
+  <input type="number" min="0" id="miCus" name="miCus" required><br><br>
+  
+  <label for="maxCus">Max Cookie</label>
+  <input type="number" min="0" id="maxCus" name="maxCus" required><br><br>
+  
+  <label for="AvgCook">Avg Cookie</label>
+  <input type="number" min="0" id="AvgCook" name="AvgCook" required><br><br>
+  
+  <button type="submit"> Save </button><br><br>
+  
+  </legend>
+  
+    </fieldset>
+  </form>
+</article>
 
-<form id="Loc-form">
-  <fieldset>
-<legend>Add New Location  <br><br>
-<label for="LocName">Location Name</label>
-<input type="text" id="LocName" name="LocationName"><br><br>
-
-<label for="num">Min Cookie</label>
-<input type="number" min="0" id="num"><br><br>
-
-<label for="max">Max Cookie</label>
-<input type="number" min="0" id="max"><br><br>
-
-<label for="num">Avg Cookie</label>
-<input type="number" min="0" id="avg"><br><br>
-
-<button type="submit"> Save </button><br><br>
-
-</legend>
-
-  </fieldset>
-</form>
 
   <section class="sec-table" id="sec">
-    <table id="tableEle"></table>
+    <table id="CookieTable"></table>
   </section>  
 
   <footer>
