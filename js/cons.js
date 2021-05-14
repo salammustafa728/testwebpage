@@ -282,7 +282,7 @@ function eventSave(event){
   const minCus = event.target.miCus.value;
   const maxCus = event.target.maxCus.value;
   const avgCUs = event.target.AvgCook.value;
-
+ 
   let newLocation = new Cookie(locName,minCus,maxCus,avgCUs);
   let rowsTable = CookieTable.rows.length;
   CookieTable.deleteRow(rowsTable-1);
