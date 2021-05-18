@@ -1,0 +1,44 @@
+
+nav{
+    background-color: #189ad3;
+    height: 70px;
+    text-align: center;
+}
+nav >p{
+    color: white;
+    position: relative;
+    top: 10px;
+    font-size: 25px;
+}
+.sec-form{
+    border: 2px black dotted;
+    width: 20%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+legend{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    /* border: 2px  black dotted; */
+}
+button{
+    background-color: #71c7ec;
+    border: none;
+    height: 40px;
+    width: 60px;
+    color: white;
+}
+footer{
+    background-color: #189ad3;
+    height: 70px;
+    text-align: center;
+    position: relative;
+    top: 300px;
+}
+footer>p{
+    color: white;
+    position: relative;
+    top: 10px;
+}
