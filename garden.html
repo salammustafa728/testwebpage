@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -28,9 +28,9 @@
                                 <span>Image</span>
                                 <select id="flowers">
                                     <option value="" id="optE">choose Image</option>
-                                </select>
+                                </select> -->
                                 <!-- <input type="text" id="flowers"> -->
-                            </label><br><br>
+                            <!-- </label><br><br>
     
                             <label> 
                                 <span>Season</span>
@@ -42,17 +42,71 @@
                 </form><br><br>
             </section>
            <section>
-               <table id="tableFlower">
+               <table id="tableFlower"> -->
                    <!-- <tr>
                        <img src="" id="imgFlower">
                    </tr> -->
-               </table>
+               <!-- </table>
            </section>
         </section>
 
     </main>
     <footer>
         <p>All right reserved &copy; 2021</p>
+    </footer>
+    <script src="./js/garden.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/garden.css">
+</head>
+<body>
+    <nav>
+        <h1>My fabuluas Garden</h1>
+    </nav>
+
+    <main>
+        <section class="secFor" id="formSec">
+            <br>
+        <form id="flowerForm">
+         <fieldset>
+            <legend> New Flower <br><br>
+                <label>Name</label><br>
+                <input type="text" id="flowerName"><br><br>
+
+                <label> 
+                    <span>Image</span><br>
+                    <select id="flowers">
+                        <option value="" id="optE">choose Image</option><br>
+                    </select>
+                   
+                </label><br><br><br>
+
+                <label for="season">season</label><br>
+                <input type="text" name="season" id="season"><br><br>
+
+                <button id="btnSave" > Save </button><br><br>
+            </legend>
+           </fieldset><br>
+
+        </form>
+        </section>
+        <section id="cartCont">
+            <table id="tableE">
+               
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>All rigight reserved 2021 &copy; ASAC</p>
     </footer>
     <script src="./js/garden.js"></script>
 </body>
