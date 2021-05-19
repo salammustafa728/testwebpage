@@ -21,24 +21,33 @@
                            
                             <label> 
                                 <span>Name</span>
-                                <input id="Imgs">
+                                <input id="nameImg">
                             </label><br><br>
                           
                             <label> 
                                 <span>Image</span>
-                                <input type="text" id="flowers">
+                                <select id="flowers">
+                                    <option value="" id="optE">choose Image</option>
+                                </select>
+                                <!-- <input type="text" id="flowers"> -->
                             </label><br><br>
     
                             <label> 
                                 <span>Season</span>
                                 <input type="text" id="season">
                             </label><br><br>
-                            <button type="click"> Save </button>
+                            <button type="click" id="btnSave"> Save </button>
                         </legend>
                     </fieldset>
                 </form><br><br>
             </section>
-           
+           <section>
+               <table id="tableFlower">
+                   <!-- <tr>
+                       <img src="" id="imgFlower">
+                   </tr> -->
+               </table>
+           </section>
         </section>
 
     </main>
