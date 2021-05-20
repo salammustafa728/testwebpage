@@ -79,8 +79,15 @@ legend{
     left: 320px;
     top: 40px;
     width: 50%;
-    height: 50%;
+   
 }
+form {
+        
+        height: 220%;
+    }
+/* fieldset{
+    border: dashed;
+}     */
 input{
     color: black;
     position: absolute;
