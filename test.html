@@ -4,39 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/test.css">
-    <title>My Fabulous Garden</title>
+    <title>Mobile-Store</title>
 </head>
 <body>
     <header>
-        <nav>
-            <h1>My Fabulous Garden</h1>
-        </nav>
+        <h1>
+            Mobile-Store
+        </h1>
+
     </header>
     <main>
-        <section class="flower">
-            <fieldset>
-                <legend>New flowers</legend>
-                <form action="" id="form">
-                   <label for="name">Name</label> <br>
-                   <input type="text" id="name"><br>
-                   <label for="img">Image</label><br>
-                   <select name="image" id="images"></select><br>
-                   <label for="season">season</label><br>
-                   <input type="text" id="season"><br>
-                   <input type="submit" >
-                </form>
-            </fieldset>
-            <section class="tflower">
-                <table id="table"></table>
-                
-            </section>
-        </section>
+      
+        <form action="" id="form">
+<label for="User" >User</label>
+<br>
+
+<input type="text" id="user" name="user" required>
+
+<br>
+<br>
+
+<label for="type">Type</label>
+<br>
+
+<select name="type" id="type">
+    <option value="Samsung">Samsung</option>
+    <option value="Huawei">Huawei</option>
+    <option value="Apple">Apple</option>
+</select>
+<br>
+<br>
+<input type="submit" id="submit">
+        </form>
+
+        <div id="parent"></div>
+   
     </main>
     <footer>
-        all right receved 2021 &copy; ASAC
+        <h2>&COPY; 2021 ASAC</h2>
+       <div><hr> </div> 
+        <script src="./js/test.js"></script>
     </footer>
-    <script src="./js/test.js"></script>
 </body>
 </html>
